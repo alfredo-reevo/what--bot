@@ -22,5 +22,12 @@ async def on_message(msg):
         else:
             pass
 
+@client.event
+async def on_message_edit(before, after):
+    if after.channel.name == "❓-what":
+        if after.content != "What?":
+            await after.delete()
+            return
+
 
 client.run(TOKEN)
