@@ -1,7 +1,7 @@
 # This bot automatically and instantaneously removes any message within the text channel "❓-what" that does not equate to "What?"
 # Made for kenzie's discord server because I was bored
 
-# Programmed by Alfie Reeves (jimmelton @ Github)
+# Programmed by Alfie Reeves (alfredo-reevo @ Github)
 
 import discord
 
